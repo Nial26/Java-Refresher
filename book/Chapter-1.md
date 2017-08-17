@@ -53,6 +53,14 @@ There is also the `final` keyword in java to make a variable immutable.
 * `int value = 10;`
 * `final double PI=3.14159`
 
+##### _Some things about `final`_
+
+* `final` primitives cannot be modified
+* `final` instances cannot be reassigned to a new object
+* `final` classes cannot be extended ( Inherited )
+* `final` methods cannot be overridden
+
+
 ### Standard Programming Constructs
 
 Java follows pretty much the common syntax for almost all of the standard programming constructs and offers the same standard operators for arithmetic and relational operations.
@@ -88,7 +96,7 @@ Java follows pretty much the common syntax for almost all of the standard progra
 
 ##### __Looping__
 
-*With for loops: *
+*With for loops:*
 
     import java.util.Scanner;
     
@@ -111,7 +119,7 @@ Java follows pretty much the common syntax for almost all of the standard progra
       }
     }
 
-*With while loops*
+*With while loops:*
 
     import java.util.Scanner;
     
@@ -235,3 +243,4 @@ Java also supports varargs, which can be manipulated using the standard array ma
 * Java supports labeled breaks and continues.
 * Java has the `System.out.printf()` which can be used for formatted printing.
 * The constructor for the scanner can take in a `file` object as an argument and it behaves symmetrically on files and keyboard inputs.
+* Varargs if present should be the last argument to the method
