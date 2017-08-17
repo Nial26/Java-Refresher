@@ -1,4 +1,4 @@
-#Chapter 1
+# Chapter 1
 ----------------------
 
 ### The Basics
@@ -57,7 +57,7 @@ There is also the `final` keyword in java to make a variable immutable.
 
 Java follows pretty much the common syntax for almost all of the standard programming constructs and offers the same standard operators for arithmetic and relational operations.
 
-#####__Flow Control__
+##### __Flow Control__
 
     import java.util.Scanner;
     
@@ -86,7 +86,7 @@ Java follows pretty much the common syntax for almost all of the standard progra
       }
     }
 
-#####__Looping__
+##### __Looping__
 
 *With for loops: *
 
@@ -138,7 +138,7 @@ Java follows pretty much the common syntax for almost all of the standard progra
       }
     }
 
-#####__Arrays__
+##### __Arrays__
 
     import java.util.Scanner;
     import java.io.Console;
@@ -183,7 +183,7 @@ Java follows pretty much the common syntax for almost all of the standard progra
       }
     }
 
-#####__Recursive Functions__
+##### __Recursive Functions__
 
     import java.util.Scanner;
     
@@ -207,7 +207,7 @@ Java follows pretty much the common syntax for almost all of the standard progra
       }
     }
 
-#####__Some notes on Function parameters__
+##### __Some notes on Function parameters__
 
 In Java whenever an argument of the primitive is passed on to a method, a copy of that primitive is passed into the method. (Pass by value)
 
@@ -230,7 +230,7 @@ Java also supports varargs, which can be manipulated using the standard array ma
     }
 
 
-#####__Other Miscellaneous things__
+##### __Other Miscellaneous things__
 
 * Java supports labeled breaks and continues.
 * Java has the `System.out.printf()` which can be used for formatted printing.
